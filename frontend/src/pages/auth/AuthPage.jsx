@@ -145,44 +145,10 @@ export default function AuthPage({ onAuthSuccess }) {
           <span className="a-logo-name">ReliefLink</span>
         </div>
 
-        {/* hero text */}
-        <div className="a-left-hero">
-          <div className="a-hero-tag">AI-Powered Platform</div>
-          <h1 className="a-hero-title">
-            Connecting<br />
-            help with<br />
-            <span className="a-hero-accent">people who<br />need it.</span>
-          </h1>
-          <p className="a-hero-desc">
-            Centralize community data, surface urgent issues, and match the right volunteers — automatically.
-          </p>
+        <div className="a-hero-wrapper">
+          <img src="/hero-photo.png" alt="Volunteer Hero" className="a-hero-img" />
         </div>
 
-        {/* stats */}
-        <div className="a-left-stats">
-          <div className="a-stat">
-            <span className="a-stat-n">2,400+</span>
-            <span className="a-stat-l">Volunteers</span>
-          </div>
-          <div className="a-stat-div" />
-          <div className="a-stat">
-            <span className="a-stat-n">180+</span>
-            <span className="a-stat-l">NGOs</span>
-          </div>
-          <div className="a-stat-div" />
-          <div className="a-stat">
-            <span className="a-stat-n">94%</span>
-            <span className="a-stat-l">Match Rate</span>
-          </div>
-        </div>
-
-        {/* bottom tag row */}
-        <div className="a-left-tags">
-          <span className="a-tag">🏥 Medical</span>
-          <span className="a-tag">🍱 Food Aid</span>
-          <span className="a-tag">🏠 Shelter</span>
-          <span className="a-tag">🚨 Rescue</span>
-        </div>
       </div>
 
       {/* ══ RIGHT ═════════════════════════════════ */}
