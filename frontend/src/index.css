@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --bg:        #000000;
+  --bg-2:      #0d0d0d;
+  --bg-3:      #141414;
+  --bg-4:      #1a1a1a;
+  --border:    #242424;
+  --border-2:  #2e2e2e;
+  --text:      #ffffff;
+  --text-2:    #a0a0a0;
+  --text-3:    #5a5a5a;
+  --accent:    #ffffff;
+  --accent-bg: rgba(255,255,255,0.06);
+  --danger:    #ff4444;
+  --warn:      #f59e0b;
+  --success:   #22c55e;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+}
+
+body {
+  margin: 0; padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#root { min-height: 100vh; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
